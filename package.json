@@ -1,0 +1,41 @@
+{
+  "name": "four-meme-sniper-bot",
+  "version": "1.0.0",
+  "description": "Autonomous trading bot for Four.meme platform on BNB Chain",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "bnb",
+    "trading",
+    "bot",
+    "four.meme",
+    "sniper"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.4",
+    "twitter-api-v2": "^1.18.2",
+    "dotenv": "^16.4.7",
+    "chalk": "^5.4.1",
+    "inquirer": "^9.3.7",
+    "cli-table3": "^0.6.5",
+    "ora": "^8.1.1",
+    "winston": "^3.17.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^20.17.14",
+    "@types/inquirer": "^9.0.7",
+    "tsx": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
